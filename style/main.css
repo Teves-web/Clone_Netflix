@@ -37,3 +37,27 @@ header nav a {
 header nav a:hover {
   color: #fff;
 }
+
+/*Série principal*/
+.serie-principal {
+  font-size: 16px;
+  background: url('/img/capa-rick.jpg');
+
+  height: 600px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.serie-principal .descricao {
+  margin-bottom: 40px;
+  color: #13151df0;
+}
+
+.titulo {
+  font-size: 35px;
+}
+
