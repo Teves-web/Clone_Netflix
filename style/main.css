@@ -9,9 +9,11 @@
   box-sizing: border-box;
 }
 
+/*Elementos base*/
 body {
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
+  color: white;
 }
 
 header .container {
@@ -53,11 +55,67 @@ header nav a:hover {
 }
 
 .serie-principal .descricao {
+  margin-top: 5px;
   margin-bottom: 40px;
-  color: #13151df0;
+  color: black;
 }
 
-.titulo {
+.serie-principal .titulo {
+  margin-top: 22%;
   font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+
+  padding: 13px 30px;
+  margin-right: 10px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 20px;
+}
+.serie-principal .container {
+  width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrossel-series {
+  margin-top: 5px;
+}
+
+.owl-caroussel .owl-theme {
+  display: flex;
+  margin-top: 5px;
+}
+
+.box-filme:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+/* #Wrapper = envelopar */
 
